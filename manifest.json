@@ -1,0 +1,7 @@
+{
+  "name": "HCL Palette Creator",
+  "id": "776559315999339566",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}
