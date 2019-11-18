@@ -227,6 +227,11 @@
     "@react-spring/core" "9.0.0-canary.809.5.f01ecc2"
     "@react-spring/shared" "9.0.0-canary.809.5.f01ecc2"
 
+"@types/d3-color@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@types/d3-color/-/d3-color-1.2.2.tgz#80cf7cfff7401587b8f89307ba36fe4a576bc7cf"
+  integrity sha512-6pBxzJ8ZP3dYEQ4YjQ+NVbQaOflfgXq/JbDiS99oLobM2o72uAST4q6yPxHv6FOTCRC/n35ktuo8pvw/S4M7sw==
+
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
@@ -236,6 +241,18 @@
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
   integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
+
+"@types/lodash.clonedeep@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@types/lodash.clonedeep/-/lodash.clonedeep-4.5.6.tgz#3b6c40a0affe0799a2ce823b440a6cf33571d32b"
+  integrity sha512-cE1jYr2dEg1wBImvXlNtp0xDoS79rfEdGozQVgliDZj1uERH4k+rmEMTudP9b4VQ8O6nRb5gPqft0QzEQGMQgA==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.14.147"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.147.tgz#8ca5cfa9c67753dcb73e507d1bbf1c4f8ba6f029"
+  integrity sha512-+0zY1Axql6ru5T85Rh6aR6Zr0xT7c0USLqsHv01b3ID//dOrV3OvpXJGjm69+4QpxoZ0oMNEfmW1ltwXe2WVzQ==
 
 "@types/prop-types@*":
   version "15.7.3"
@@ -249,12 +266,29 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-native@*":
+  version "0.60.22"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.60.22.tgz#ba199a441cb0612514244ffb1d0fe6f04c878575"
+  integrity sha512-LTXMKEyGA+x4kadmjujX6yAgpcaZutJ01lC7zLJWCULaZg7Qw5/3iOQpwIJRUcOc+a8A2RR7rSxplehVf9IuhA==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^16.9.11":
   version "16.9.11"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.11.tgz#70e0b7ad79058a7842f25ccf2999807076ada120"
   integrity sha512-UBT4GZ3PokTXSWmdgC/GeCGEJXE5ofWyibCcecRLUVN2ZBpXQGVgQGtG2foS7CrTKFKlQVVswLvf7Js6XA/CVQ==
   dependencies:
     "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/styled-components@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.4.0.tgz#15a3d59533fd3a5bd013db4a7c4422ec542c59d2"
+  integrity sha512-QFl+w3hQJNHE64Or3PXMFpC3HAQDiuQLi5o9m1XPEwYWfgCZtAribO5ksjxnO8U0LG8Parh0ESCgVxo4VfxlHg==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
     csstype "^2.2.0"
 
 "@typescript-eslint/eslint-plugin@^2.7.0":
@@ -2583,6 +2617,11 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+
 lodash.unescape@4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.unescape/-/lodash.unescape-4.0.1.tgz#bf2249886ce514cda112fae9218cdc065211fc9c"
@@ -3503,6 +3542,11 @@ react-portal@^4.2.0:
   integrity sha512-Zf+vGQ/VEAb5XAy+muKEn48yhdCNYPZaB1BWg1xc8sAZWD8pXTgPtQT4ihBdmWzsfCq8p8/kqf0GWydSBqc+Eg==
   dependencies:
     prop-types "^15.5.8"
+
+react-slider@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-slider/-/react-slider-1.0.1.tgz#4cb212d31c35d804805e31f02ce37771e95d5d45"
+  integrity sha512-SI2anLzeKlFxnntoM93VXrf3ll9uL/TYjIJB6PsQVp4mDVt2VfWyGtMoUvK/ir/PnjuirNtF1pU3cG9XCezfBA==
 
 react-spring@^9.0.0-beta.33:
   version "9.0.0-canary.809.5.f01ecc2"
