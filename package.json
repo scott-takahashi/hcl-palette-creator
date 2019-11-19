@@ -3,6 +3,7 @@
     "watch": "webpack --mode=development --watch"
   },
   "dependencies": {
+    "@fantasy-color/hcl-to-rgb": "^0.1.0",
     "@patreon/studio": "^7.6.2",
     "d3-color": "^1.4.0",
     "lodash.clonedeep": "^4.5.0",

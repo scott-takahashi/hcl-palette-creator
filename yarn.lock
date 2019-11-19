@@ -127,6 +127,34 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.4.tgz#a87b4b04e5ae14a88d48ebef15015f6b7d1f5677"
   integrity sha512-kBa+cDHOR9jpRJ+kcGMsysrls0leukrm68DmFQoMIWQcXdr2cZvyvypWuGYT7U+9kAExUE7+T7r6G3C3A6L8MQ==
 
+"@fantasy-color/hcl-to-lab@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@fantasy-color/hcl-to-lab/-/hcl-to-lab-0.1.0.tgz#ba5f6cc169670e65ba3eddffba99339f53efcbc8"
+  integrity sha512-syL8jxHI0rs93CM0S619Z0f+1h1MeiZkNSq+wNiUu2sqFWWU69M3lnE1FIfmPeZyGpEpfTi95vz207/NlLSjMg==
+  dependencies:
+    "@fantasy-color/types" "^0.1.0"
+
+"@fantasy-color/hcl-to-rgb@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@fantasy-color/hcl-to-rgb/-/hcl-to-rgb-0.1.0.tgz#b9fc53ba41bc5d0985b4cfc12bcab62d0856b476"
+  integrity sha512-DZeY/8dpogAaHrRfNd6r1NoBRAktAHUSLEm6akgtWrokcM2DB9OyBQjZgVipfV06x04wbcYgukNBgPUhHMeUHw==
+  dependencies:
+    "@fantasy-color/hcl-to-lab" "^0.1.0"
+    "@fantasy-color/lab-to-rgb" "^0.1.0"
+    "@fantasy-color/types" "^0.1.0"
+
+"@fantasy-color/lab-to-rgb@^0.1.0":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@fantasy-color/lab-to-rgb/-/lab-to-rgb-0.1.1.tgz#d4cdb3f5135dabf63a2e06486a4df9bf3f8ea05c"
+  integrity sha512-EJNBCNRGtr8PAa8SlWOMFQhvjTs0VMpORxuLrb4jr0hyAywEpNcdp7w5tqGbq/9fws01lHP+zkcM/JB7jjzw+w==
+  dependencies:
+    "@fantasy-color/types" "^0.1.0"
+
+"@fantasy-color/types@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@fantasy-color/types/-/types-0.1.0.tgz#0c90f3975d9787b00986d6ef594cc700145730c9"
+  integrity sha512-70fDcUMJa3E/kmENdKeW5cVrpQIK9SfS9vFJpwPyTsXHH8Zk9jtcJ+nhaPt4nl03/EyRJUEyhcJkTZMVexVxJA==
+
 "@patreon/studio@^7.6.2":
   version "7.6.2"
   resolved "https://registry.yarnpkg.com/@patreon/studio/-/studio-7.6.2.tgz#6c33d489754d77cf34f675363656bdc40400fa69"
