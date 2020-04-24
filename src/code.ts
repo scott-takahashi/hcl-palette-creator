@@ -11,7 +11,9 @@ figma.ui.onmessage = (msg: Message) => {
         case MessageType.ScanSelection:
             const selectedNodesWithFill = figma.currentPage.selection
 
-            const sortedNodes = [...selectedNodesWithFill].sort(node => -node.y)
+            const sortedNodes = [...selectedNodesWithFill].sort(
+                (nodeA, nodeB) => nodeA.y - nodeB.y || nodeA.x - nodeB.x,
+            )
 
             const selectedColors = sortedNodes
                 .map(node =>

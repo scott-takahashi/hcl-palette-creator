@@ -47,6 +47,8 @@ const App: React.FC = () => {
         }
     }, [hasScanned])
 
+    const bound = (value: number) => Math.max(Math.min(value, 255), 0)
+
     const replaceColors = () => {
         parent.postMessage(
             {
@@ -55,9 +57,9 @@ const App: React.FC = () => {
                     nodeColors: nodeColors.map(({ nodeId, color }) => ({
                         nodeId,
                         color: {
-                            r: color.rgb().r / 256,
-                            g: color.rgb().g / 256,
-                            b: color.rgb().b / 256,
+                            r: bound(color.rgb().r / 256),
+                            g: bound(color.rgb().g / 256),
+                            b: bound(color.rgb().b / 256),
                         },
                     })),
                 },
